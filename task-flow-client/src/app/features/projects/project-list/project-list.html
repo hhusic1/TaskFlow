@@ -1,0 +1,12 @@
+<h1>Projekti</h1>
+
+<ul>
+  @for (project of projects(); track project.id) {
+    <li>
+      <strong>{{ project.name }}</strong>
+      <p>{{ project.description }}</p>
+    </li>
+  } @empty {
+    <li>Nema projekata.</li>
+  }
+</ul>

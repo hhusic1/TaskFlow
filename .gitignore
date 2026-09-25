@@ -1,0 +1,13 @@
+# Java / Maven (taskflow-api)
+taskflow-api/target/
+taskflow-api/*.mv.db
+taskflow-api/*.trace.db
+
+# Angular / Node (task-flow-client)
+task-flow-client/node_modules/
+task-flow-client/dist/
+task-flow-client/.angular/
+
+# IDE
+.idea/
+.vscode/
